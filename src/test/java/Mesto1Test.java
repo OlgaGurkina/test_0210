@@ -9,7 +9,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
 public class Mesto1Test {
-    String bearerToken = "bbbbb_eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjczYzhhNTA0NmM5ZDAwM2QxNmYxODMiLCJpYXQiOjE2NjQ3MDE2OTcsImV4cCI6MTY2NTMwNjQ5N30.lz0xV4HSUfelbX3u_T_vKIB5D2FObH7xpSCZu_8FmSM";
+    String bearerToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjczYzhhNTA0NmM5ZDAwM2QxNmYxODMiLCJpYXQiOjE2NjQ3MDE2OTcsImV4cCI6MTY2NTMwNjQ5N30.lz0xV4HSUfelbX3u_T_vKIB5D2FObH7xpSCZu_8FmSM";
 
     @Before
     public void setUp() {
